@@ -182,15 +182,17 @@ namespace ChatTextProject.Hubs
                     }
                     else
                     {
+                        guesses--;
                         Clients.All.broadcastMessage("Hangman Game", "Oof. Wrong guess... Try again. You have " + guesses + " tries left.");
                         drawHangman();
                     }
 
-                    guesses--;
+                    
                 }
             }
             else
             {
+                guesses--;
                 drawHangman();
                 Clients.All.broadcastMessage("Hangman Game", "You ran out of guesses! You lose:( Maybe you'll be luckier next time! *GAMEOVER* ");
                 return;

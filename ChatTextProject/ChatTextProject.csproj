@@ -95,7 +95,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\PublishProfiles\chatogether - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\chatogether.passion22.com - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="images\chaticon.png" />
     <Content Include="index.html" />
